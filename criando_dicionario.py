@@ -12,4 +12,4 @@ print(pessoa['endereço'])
 print()
 
 for a in pessoa:
-    print(a,pessoa[a])
+    print(a, pessoa[a])
