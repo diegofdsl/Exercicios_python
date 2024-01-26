@@ -21,25 +21,35 @@ pessoa = {
 #     print('Existe')
 
 #shallow copy
-
-d1={'c1':1,
-    'c2':2
-}
-
-print(d1)
-d2 = d1
-d2['c1']= 1000
-print(d1)
-print(d2)
-
-#metodo copy
-e1 = {'e1':1,
-      'e2':2,
-      }
-e2=e1.copy()
-e2['e2']=10
-print(e1)
-print(e2)
+#
+# d1={'c1':1,
+#     'c2':2
+# }
+#
+# print(d1)
+# d2 = d1
+# d2['c1']= 1000
+# print(d1)
+# print(d2)
+#
+# #metodo copy nao muda os dados imutaveis no primeiro dicionário
+# e1 = {'e1':1,
+#       'e2':2,
+#       'l1':[0,1,2]
+#       }
+# e2=e1.copy()
+# e2['e2']=10
+# # print(e1)
+# # print(e2)
+# # e2['l1'][1]=999
+#
+# #pra criar uma deep copy
+# import copy
+# e2 = copy.deepcopy(e1)
+# e2['e2']=10
+# e2['l1'][1]=999
+# print(e2)
+# print(e1)
 
 
 # }
