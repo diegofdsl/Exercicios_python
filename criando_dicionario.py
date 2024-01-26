@@ -77,9 +77,7 @@ pessoa = {
 print(pessoa)
 
 #update atualiza um dicionario com outro
-
-
-
+pessoa.update({'nome':'Novo_valor'})
 # metodo com tupla
 
 #
