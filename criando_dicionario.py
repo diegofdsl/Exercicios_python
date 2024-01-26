@@ -1,10 +1,24 @@
-# pessoa = {
-#     'nome':'Luiz Otavio',
-#     'sobrenome':'Miranda',
-#     'idade': 18,
-#     'altura': 1.80,
-#     'endereço': [{'rua': 'tal tal', 'numero':123},{'rua':'outra rua','numero':321}]
-#
+pessoa = {
+    'nome':'Luiz Otavio',
+    'sobrenome':'Miranda',
+    'idade': 18,
+    'altura': 1.80,
+    'endereço': [{'rua': 'tal tal', 'numero':123},{'rua':'outra rua','numero':321}]}
+
+#Quantas chaves
+print(len(pessoa))
+#Mostrar as chaves
+print(pessoa.keys())
+#mostrar valores
+print(pessoa.values())
+#mostrar chaves e valores correspondentes
+print(pessoa.items())
+
+
+
+
+
+
 # }
 # # pessoa = dict(nome = 'Luiz Otávio',sobrenome ='Miranda'
 # print(pessoa['nome'])
