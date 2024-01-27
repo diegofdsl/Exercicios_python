@@ -33,8 +33,9 @@ while True:
             acertos+=1
         else:
             print('Resposta errada')
+    print()
     print(f'Fim do teste:\n'
-          f'Você acertou {acertos} de 3 questões')
+          f'Você acertou {acertos} de 3 questões\n')
     break
 if resposta_1 not in lista1 or resposta_2 not in lista2 or resposta_3 not in lista3:
     print('Refaça o teste utilizando somente escolhas válidas')
