@@ -1,14 +1,14 @@
 #jogo da palavra secreta
 
 
-palavra = 'Diego'
+palavra = 'Brasil'
 letras_acertadas =''
 numero_tentativas = 0
 while True:
   letra = str(input('Digite uma letra : '))
   numero_tentativas +=1
 
-  if letra == 'd':
+  if letra == 'b':
     letra = letra.upper()
 
   if letra in palavra:
